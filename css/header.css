@@ -1,0 +1,61 @@
+/*Definindo posicionamento, altura e detalhe do header*/
+#header{
+    height: 150px;
+    padding-top: 25px;
+    background: url(../imagens/detalhe-topo.png) no-repeat top right;
+}
+
+/*Propriedades da logo*/
+.logo{
+    width: 152px;
+    height: 66px;
+    background: url(../imagens/logo.png) no-repeat;
+    text-indent: -3000px;
+}
+
+/*Barra de navegação*/
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#header ul{
+    margin-top: 30px;
+    background: #b10333;
+    float: left;
+}
+
+#header ul li{
+    float: left;
+}
+
+#header ul li a{
+    font-size: 0.9em;
+    display: block;
+    padding: 0.5em 1.5em;
+    line-height: 2.1em;
+    text-decoration: none;
+    color: #fff;
+    background: url(../imagens/divisor.png) repeat-y;
+}
+
+#header ul .primeiro a{
+    background: none;
+}
+ 
+#header ul a:hover{
+    color: #69001d;
+}
+
+body.home #navegacao-header a#home,
+body.brasil #navegacao-header a#brasil,
+body.internacional #navegacao-header a#internacional,
+body.economia #navegacao-header a#economia,
+body.saude #navegacao-header a#saude,
+body.ciencias #navegacao-header a#ciencias,
+body.fotos #navegacao-header a#fotos{
+    color: #fff;
+    background: #de003e;
+}
+/*End of barra de navegação*/

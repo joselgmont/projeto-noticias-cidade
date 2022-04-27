@@ -1,3 +1,6 @@
+@import url(./header.css);
+@import url(./colunas-conteudo.css);
+
 /*Resetando as configs de css do documento*/
 *{
     margin: 0;
@@ -16,55 +19,14 @@ body{
     margin: 0 auto;
 }
 
-#header{
-    height: 150px;
-    padding-top: 25px;
-    background: url(../imagens/detalhe-topo.png) no-repeat top right;
+#footer{
+    background: #294c71;
+    padding: 20px;
 }
 
-.logo{
-    width: 152px;
-    height: 66px;
-    background: url(../imagens/logo.png) no-repeat;
-    text-indent: -3000px;
-}
-
-
-ul{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-#header ul{
-    margin-top: 30px;
-    background: #b10333;
-    float: left;
-}
-
-#header ul li{
-    float: left;
-}
-
-#header ul li a{
-    font-size: 0.9em;
-    display: block;
-    padding: 0.5em 1.5em;
-    line-height: 2.1em;
-    text-decoration: none;
+#footer-container{
+    width: 750px;
+    margin: 0 auto;
     color: #fff;
-    background: url(../imagens/divisor.png) repeat-y;
-}
 
-#header ul .primeiro a{
-    background: none;
-}
- 
-#header ul a:hover{
-    color: #69001d;
-}
-
-body.home #navegacao-header a#home{
-    color: #fff;
-    background: #de003e;
 }
