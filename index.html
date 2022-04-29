@@ -9,82 +9,219 @@
 </head>
 <body class="home">
 
-        
-    <div id="container">
-        <!-- Incio do Header -->
-        <div id="header">
-            <h1 class="logo">Notícias cidade</h1>
-            <ul id="navegacao-header">
-                <li class="primeiro"><a href="" id="home">Home</a></li>
-                <li><a href="" id="brasil">Brasil</a></li>
-                <li><a href="" id="internacional">Internacional</a></li>
-                <li><a href="" id="economia">Economia</a></li>
-                <li><a href="" id="saude">Saúde</a></li>
-                <li><a href="" id="ciencias">Ciências</a></li>
-                <li><a href="" id="fotos">Fotos</a></li>
+<!-- Container -->
+<div id="container">
+
+<!-- Header -->
+<div id="header">
+    <h1 class="logo">Notícias cidade</h1>
+    <ul id="navegacao-header">
+        <li class="primeiro"><a href="./index.html" id="home">Home</a></li>
+        <li><a href="./" id="brasil">Brasil</a></li>
+        <li><a href="" id="internacional">Internacional</a></li>
+        <li><a href="" id="economia">Economia</a></li>
+        <li><a href="" id="saude">Saúde</a></li>
+        <li><a href="" id="ciencias">Ciências</a></li>
+        <li><a href="" id="fotos">Fotos</a></li>
+    </ul>
+</div>
+<!-- End of header -->
+
+<!-- Conteudo -->
+<div id="conteudo">
+
+    <!-- Conteudo primario-->
+    <div id="primario">
+
+    <!-- Caixa em destaque -->
+    <div class="caixa destaque">
+        <h2>Destaque</h2>
+        <div class="caixa-conteudo">
+            <h3>Nova legislação</h3>
+            <img src="./imagens/taxi.jpg" alt="Taxi" width="100%" class="imagem-principal">
+            <p>
+            Mussum Ipsum, cacilds vidis litro abertis. 
+            Copo furadis é disculpa de bebadis, arcu quam euismod magna.
+            Per aumento de cachacis, eu reclamis. 
+            Nullam volutpat risus nec leo commodo, ut interdum diam laoreet. 
+            </p>
+            <a href="">Leia mais</a>
+        </div>
+    </div>
+    <!-- End of caixa em destaque -->
+
+    <!-- Lista de noticias -->
+    <div class="caixa">
+        <h2>Mundo</h2>
+        <div class="caixa-conteudo">
+            <ul id="lista-noticias">
+            <li>
+                <a href="">
+                    <img src="./imagens/tecnologia.jpg" alt="" width="80">
+                    <h3>Novas tecnologias</h3>
+                    <p>
+                    Mussum Ipsum, cacilds vidis litro abertis. 
+                    </p>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="./imagens/tecnologia.jpg" alt="" width="80">
+                    <h3>Novas tecnologias</h3>
+                    <p>
+                    Mussum Ipsum, cacilds vidis litro abertis. 
+                    </p>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="./imagens/tecnologia.jpg" alt="" width="80">
+                    <h3>Novas tecnologias</h3>
+                    <p>
+                    Mussum Ipsum, cacilds vidis litro abertis. 
+                    </p>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="./imagens/tecnologia.jpg" alt="" width="80">
+                    <h3>Novas tecnologias</h3>
+                    <p>
+                    Mussum Ipsum, cacilds vidis litro abertis. 
+                    </p>
+                </a>
+            </li>
             </ul>
         </div>
-        <!-- End of Header -->
+    </div>
+    <!-- End of lista de noticias -->
 
-        <!-- Conteudo -->
-        <div id="conteudo">
-            <div id="primario">
-                <div class="caixa">
-                    <h2>Última entrevista</h2>
-                    <div class="caixa-conteudo">
-                    </div>
-                </div>
-            </div>
-            <div id="secundario">
-                <div class="caixa">
-                    <h2>Destaque</h2>
-                    <div class="caixa-conteudo">
-                    </div>
-                </div>
-            </div>
-            <!--Inicio da navegação lateral-->
-            <div id="navegacao-lateral">
-                <div class="caixa">
-                    <h2>Entrevistas</h2>
-                    <div class="caixa-conteudo">
-                        <ul>
-                            <li><a href="">Gil da Esfirra</a></li>
-                            <li><a href="">Marcos Mion</a></li>
-                            <li><a href="">José Bezerra</a></li>
-                            <li><a href="">Jorge Lafon</a></li>
-                            <li><a href="">Owen Wilson</a></li>
-                            <li><a href="">Sônia Abrão</a></li>
-                            <li><a href="">Chico Barney</a></li>
-                            <li><a href="">Liminha</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="caixa">
-                    <h2>News</h2>
-                    <div class="caixa-conteudo">
-                        <form action="">
-                            <div>
-                                <label for="email">E-mail:</label>
-                                <input type="text" name="email" id="email" placeholder="Insira seu e-mail">
-                            </div>
-                            <div>
-                                <input class="submit" type="submit" value="Cadastrar">
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-            <!--End of navegação lateral-->
-        </div>
-        <!-- End of conteudo -->
     </div>
-    <!-- Inicio do footer-->
-    <div id="footer" style="clear: both;">
-        <div id="footer-container">
-            &copy; Copyright 2002-2022 Notícias cidade 
+    <!-- End of conteudo primario-->
+
+    <!-- Conteudo secundario -->
+    <div id="secundario">
+
+        <!-- Caixa entrevista-->
+        <div class="caixa entrevista">
+            <h2>Última entresvista</h2>
+            <div class="caixa-conteudo">
+                <h3>Entrevista com Gil da Esfirra</h3>
+                <img src="./imagens/doutor.jpg" alt="Taxi" width="100%" class="imagem-principal">
+                <p>
+                Mussum Ipsum, cacilds vidis litro abertis. 
+                Copo furadis é disculpa de bebadis, arcu quam euismod magna.
+                Per aumento de cachacis, eu reclamis. 
+                Nullam volutpat risus nec leo commodo, ut interdum diam laoreet. 
+                </p>
+                <a href="">Leia mais</a>
+            </div>
         </div>
+        <!-- End of caixa entrevista-->
+
+        <!-- Lista de noticias -->
+        <div class="caixa">
+            <h2>Últimas noticias</h2>
+            <div class="caixa-conteudo">
+                <ul id="lista-noticias">
+                <li>
+                    <a href="">
+                        <img src="./imagens/doutor.jpg" alt="" width="80">
+                        <h3>Novas tecnologias</h3>
+                        <p>
+                        Mussum Ipsum, cacilds vidis litro abertis. 
+                        </p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="./imagens/taxi.jpg" alt="" width="80">
+                        <h3>Novas tecnologias</h3>
+                        <p>
+                        Mussum Ipsum, cacilds vidis litro abertis. 
+                        </p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="./imagens/tecnologia.jpg" alt="" width="80">
+                        <h3>Novas tecnologias</h3>
+                        <p>
+                        Mussum Ipsum, cacilds vidis litro abertis. 
+                        </p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="./imagens/mundo.jpg" alt="" width="80">
+                        <h3>Novas tecnologias</h3>
+                        <p>
+                        Mussum Ipsum, cacilds vidis litro abertis. 
+                        </p>
+                    </a>
+                </li>
+                </ul>
+            </div>
+        </div>
+        <!-- End of lista de noticias -->
+
     </div>
-    
-    
+    <!-- End of conteudo secundario-->
+
+    <!--Inicio da navegação lateral-->
+    <div id="navegacao-lateral">
+        
+        <!-- Entrevistas -->
+        <div class="caixa">
+        <h2>Entrevistas</h2>
+            <div class="caixa-conteudo">
+                <ul>
+                    <li><a href="">Gil da Esfirra</a></li>
+                    <li><a href="">Marcos Mion</a></li>
+                    <li><a href="">José Bezerra</a></li>
+                    <li><a href="">Jorge Lafon</a></li>
+                    <li><a href="">Owen Wilson</a></li>
+                    <li><a href="">Sônia Abrão</a></li>
+                    <li><a href="">Chico Barney</a></li>
+                    <li><a href="">Liminha</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- End of entrevistas -->
+
+        <!-- Cadastro news -->
+        <div class="caixa">
+            <h2>News</h2>
+            <div class="caixa-conteudo">
+                <form action="">
+                    <div>
+                        <label for="email">E-mail:</label>
+                        <input type="text" name="email" id="email" placeholder="Insira seu e-mail">
+                    </div>
+                    <div>
+                        <input class="submit" type="submit" value="Cadastrar">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!-- End of cadastro news-->
+
+    </div>
+    <!--End of navegação lateral-->
+
+</div>
+<!-- End of conteudo -->
+
+</div>
+<!-- End of container-->
+
+<!-- Inicio do footer-->
+<div id="footer" style="clear: both;">
+    <div id="footer-container">
+        &copy; Copyright 2002-2022 Notícias cidade 
+    </div>
+</div>
+<!-- End of footer-->
+
 </body>
 </html>
