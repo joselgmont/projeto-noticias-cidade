@@ -19,12 +19,14 @@
     margin: 0 0 20px 0;
 }
 
+/*Dimenções e posição da coluna secundaria*/
 #secundario{
     width: 270px;
     float: left;
     margin: 0 0 20px 15px;
 }
 
+/*Dimenções e posição da coluna de navegação lateral*/
 #navegacao-lateral{
     width: 180px;
     float: left;
@@ -68,7 +70,7 @@ h2{
     color: gray;
 }
 
-/*Navegaçaõ lateral: news*/
+/*Navegaçaõ lateral: Cadastro de e-mail*/
 label{
     display: block;
     cursor: pointer;
@@ -89,7 +91,7 @@ input.submit{
     border: 2px solid #870529;
 }
 
-/*img*/
+/*Imagens*/
 img{
     border: 2px solid #dfdfdf ;
 }
@@ -99,7 +101,7 @@ img.imagem-principal{
     border: 3px solid #dfdfdf ;
 }
 
-/*cabeçalhos*/
+/*Cabeçalhos*/
 h3{
     text-transform: uppercase;
     display: inline;
@@ -117,7 +119,7 @@ h3{
     
 }
 
-/*----- Lista noticias ------*/
+/*Listas noticias*/
 
 #lista-noticias li{
     padding: 2px;

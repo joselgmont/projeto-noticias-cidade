@@ -1,7 +1,7 @@
 @import url(./header.css);
 @import url(./colunas-conteudo.css);
 
-/*Resetando as configs de css do documento*/
+/*Resetando as propriedades de css do documento*/
 *{
     margin: 0;
     padding: 0;
@@ -19,6 +19,7 @@ body{
     margin: 0 auto;
 }
 
+/*Propriedaddes do footer*/
 #footer{
     background: #294c71;
     padding: 20px;

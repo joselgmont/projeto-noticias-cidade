@@ -13,7 +13,7 @@
     text-indent: -3000px;
 }
 
-/*Barra de navegação*/
+/*Barra de navegação e sua orientação*/
 ul{
     margin: 0;
     padding: 0;
@@ -30,6 +30,7 @@ ul{
     float: left;
 }
 
+/*Estilização da dos botões da barra de navagação*/
 #header ul li a{
     font-size: 0.9em;
     display: block;
@@ -48,6 +49,7 @@ ul{
     color: #69001d;
 }
 
+/*Definindo a marcação da página*/
 body.home #navegacao-header a#home,
 body.brasil #navegacao-header a#brasil,
 body.internacional #navegacao-header a#internacional,
@@ -58,4 +60,3 @@ body.fotos #navegacao-header a#fotos{
     color: #fff;
     background: #de003e;
 }
-/*End of barra de navegação*/
